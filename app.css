@@ -1,0 +1,46 @@
+body, nav {
+    background-color: #F5F5F5;
+    background-image: url('images/neutralPattern.jpg');
+    background-size: cover;
+    font-family: Nunito, sans-serif;
+}
+
+nav {
+    font-size: 24px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #D35400;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFA500;
+}
+
+h1, .navbar-brand {
+    color: #D35400;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.logo {
+    max-width: 12em;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        max-width: 15em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        max-width: 15em;
+    }
+}
