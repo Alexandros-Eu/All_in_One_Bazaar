@@ -1,13 +1,38 @@
-body {
+body, nav {
     background-color: #F5F5F5;
     background-image: url('images/neutralPattern.jpg');
     background-size: cover;
     font-family: Nunito, sans-serif;
 }
 
-h1 {
+body {
+    padding-top: 3em;
+}
+
+nav {
+    font-size: 24px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #D35400;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFA500;
+}
+
+h1, .navbar-brand {
     color: #D35400;
     font-size: 24px;
+}
+
+.btn-orange {
+    background-color: #D35400;
+    color: #FFFFFF;
+}
+
+.btn-orange:hover {
+    background-color: #B03A00;
 }
 
 figcaption p {
@@ -15,7 +40,4 @@ figcaption p {
     font-weight: 700;
 }
 
-.btn-orange {
-    background-color: #D35400;
-    color: #FFFFFF;
-}
+
