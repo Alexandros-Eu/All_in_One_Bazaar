@@ -34,3 +34,17 @@ h1, .navbar-brand {
 .btn-orange:hover {
     background-color: #B03A00;
 }
+
+h1 {
+    color: #D35400;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #D35400;
+    font-size: 2em;
+}
+
+.orange-text {
+    color: #D35400;
+}
