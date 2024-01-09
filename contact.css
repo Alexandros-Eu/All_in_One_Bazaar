@@ -220,3 +220,7 @@ div.message-box textarea {
      display: none;
    }
 }
+
+legend {
+  display: none;
+}
